@@ -1,0 +1,28 @@
+main{
+    text-align: center; 
+    padding-left: 5%;
+    padding-right: 5%;
+}
+
+.btn{
+    background-color:#41004D;
+    color:lavender;
+}
+
+.btn:hover{
+    background-color: #9172ec;
+    color: #7D187e;
+    font-weight: Bold;
+}
+
+body{
+    font-family: 'Handlee', cursive;
+    color: #41004D;
+    margin: auto;
+}
+
+nav.navbar.navbar-default {
+    margin-bottom: 0;
+  }
+
+ 
