@@ -1,7 +1,7 @@
 import React from "react";
 import "./style.css";
-import Col from "components/core/Col/Col.js";
-import Row from "components/core/Row/Row.js";
+import Col from "components/Core/Col";
+import Row from "components/Core/Row";
 import { Link } from "react-router-dom";
 
 function Button() {
