@@ -1,12 +1,11 @@
-import React, { Component } from "react";
-import Form from "components\Core\Form"
+import React from "react";
+import Form from "components\Form"
 
 
 function About() {
   return(
     <div>
-      <Form>
-      </Form>
+      <Form />
     </div>
   );
 }
