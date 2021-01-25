@@ -2,7 +2,7 @@ import React from "react";
 import Container from "../src/components/Container";
 import Row from "../src/components/Row";
 import Col from "../src/components/Col";
-import Button from "components/Button";
+import Button from "./Button";
 
 function About() {
     return (
