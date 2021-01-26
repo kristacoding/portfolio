@@ -1,8 +1,8 @@
 import React from "react";
-import Container from "../src/components/Container";
-import Row from "../src/components/Row";
-import Col from "../src/components/Col";
-import Button from "./Button";
+import Container from "../components/Container/Container";
+import Row from "../components/Row/Row";
+import Col from "../components/Col/Col";
+import Button from "../components/Button/Button";
 
 function About() {
     return (

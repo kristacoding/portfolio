@@ -1,6 +1,6 @@
 import React, { Component } from "react";
 import "./style.css";
-import Container from "components\Core\Container";
+import Container from "../Container/Container";
 
 class Form extends Component {
   // Setting the component's initial state
@@ -64,8 +64,6 @@ class Form extends Component {
                 <option>I am interested in talking about hiking</option>
                 <option>Other</option>
               </select>
-            </div>
-            <div class="form-group">
               <label for="exampleFormControlTextarea1">Leave additional Message here:</label>
               <input class="form-control" id="exampleFormControlTextarea1" rows="3"
                 placeholder="Please add information about your company and your company's website!">

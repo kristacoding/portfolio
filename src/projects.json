@@ -1,0 +1,90 @@
+[
+    {
+      "id": 1,
+      "title": "Code Refractor",
+      "image": "https://i.pinimg.com/originals/f0/6c/b6/f06cb69af47b31d568a7e183cef94aea.jpg",
+      "description": "Refractored existing Horiseon webpage to ensure it followed accessibility standards adn was optimized correctly",
+      "Deployed": "https://kristacoding.github.io/homework1/",
+      "Github": "https://github.com/kristacoding/homework1"
+    },
+    {
+        "id": 2,
+        "title": "Password Generator",
+        "image": "images/examples/password generator.png",
+        "description": "This page allows the user to answer multiple prompts and then returns a password matching their password requests",
+        "Deployed": "https://kristacoding.github.io/password-generator/",
+        "Github": "https://github.com/kristacoding/password-generator"
+    },
+    {
+        "id": 3,
+        "title": "Day Planner",
+        "image": "images/examples/Planner.png",
+        "description": "A simple calendar application that allows a user to save events for each hour of the day. This app features dynamically updated HTML and CSS powered by jQuery.",
+        "Deployed": "https://kristacoding.github.io/day-planner/",
+        "Github": "https://github.com/kristacoding/day-planner"
+    },
+    {
+        "id": 4,
+        "title": "Weather Dashboard",
+        "image": "images/examples/Weather Dashboard.png",
+        "description": "This is a weather dashboard that runs in the browser using the Open Weather Map, dynamically updated HTML, CSS, and JQuery.",
+        "Deployed": "https://kristacoding.github.io/weather-dashboard/",
+        "Github": "https://github.com/kristacoding/weather-dashboard"
+    },
+    {
+        "id": 5,
+        "title": "Pokedex",
+        "image": "images/examples/Pokedex Card .png",
+        "description": "This application combines information from the Pokemon API and PokemonGo API for users can find all information about a pokemon in one easy to use online Pokedex.",
+        "Deployed": "https://j35rl4r.github.io/PokeDex-V1",
+        "Github": "https://github.com/J35RL4R/PokeDex-V1"
+    },
+    {
+        "id": 6,
+        "title": "Car Marketplace",
+        "image": "images/examples/car marketplace.png",
+        "description": "The Car Marketplace application allows users to add and buy pre-owned cars. It uses Node.JS, Sequelize, and Handlebars.",
+        "Deployed": "https://find-your-car.herokuapp.com/",
+        "Github": "https://github.com/kristacoding/find-your-car"
+    },
+    {
+        "id": 7,
+        "title": "Eat Burger",
+        "image": "images/examples/eatburger.png",
+        "description": "Create a burger logger with MySQL, Node, Express, Handlebars and a homemade ORM (yum!). Follow the MVC design pattern; use Node and MySQL to query and route data in your app, and Handlebars to generate your HTML.",
+        "Deployed": "https://drive.google.com/file/d/1BA63eRrKxOfw4Dfrcl8osft9VuhUeL8_/view",
+        "Github": "https://github.com/kristacoding/burger"
+    },
+    {
+        "id": 9,
+        "title": "Team Profile Generator",
+        "image": "images/examples/Team Profile Generator - HTML.png",
+        "description": "Architect and build a solution for managing a company's employees using node, inquirer, and MySQL.",
+        "Deployed": "https://drive.google.com/file/d/132Nvcu6f0py6Rf7l9k500RGcJeaKhyCh/view",
+        "Github": "https://github.com/kristacoding/employee-tracker"
+    },
+    {
+        "id": 10,
+        "title": "Fitness Tracker",
+        "image": "images/examples/fitness tracker.png",
+        "description": "This fitness tracker application allows users to view create and track daily workouts. Users can log multiple exercises in a workout on a given day and track the name, type, weight, sets, reps, and duration of exercise. If the exercise is a cardio exercise, users can track my distance traveled.",
+        "Deployed": "https://drive.google.com/file/d/1xcvfGNlFkDS3VLzprTwyQj6ZtPKzj2ZV/view",
+        "Github": "https://github.com/kristacoding/fitness-tracker"
+    },
+    {
+        "id": 11,
+        "title": "Progressive Budget",
+        "image": "images/examples/budgetoffline.png",
+        "description": "This application allows users to add expenses and deposits to their budget with or without a connection. When entering transactions offline, the total budget will populate when brought back online.",
+        "Deployed": "https://drive.google.com/file/d/1plbss2xMqKtUIFDY5g2zL6TWRlDb1AKi/view",
+        "Github": "https://github.com/kristacoding/budget-tracker"
+    },
+    {
+        "id": 12,
+        "title": "User Directory React",
+        "image": "images/examples/Employee directory.png",
+        "description": "As a user, I want to be able to view my entire employee directory at once so that I have quick access to their information.",
+        "Deployed": "https://kristacoding.github.io/employee-react/",
+        "Github": "https://github.com/kristacoding/employee-react"
+    }
+]
