@@ -16,11 +16,11 @@ function ProjectCard(props) {
             <strong>Description:</strong> {props.description}
           </li>
           <li>
-          <button className="btn btn" href={props.Deployed}>Deployed Application
+          <button className="button btn-outline" href={props.Deployed}>Deployed Application
             </button>
           </li>
           <li>
-          <button className="btn btn" href={props.Github}>Github Repo
+          <button className="button btn-outline" href={props.Github}>Github Repo
             </button>
           </li>
         </ul>

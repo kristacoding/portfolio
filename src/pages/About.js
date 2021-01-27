@@ -10,7 +10,7 @@ function About() {
             <Container>
                 <Row>
                     <Col size="md-6">
-                        <img class="img"
+                        <img className="img"
                             src="images/examples/Krista.jpg"
                             alt="Krista Meiers" height="650" width="500">
                         </img>

@@ -4,23 +4,21 @@ import "./style.css";
 
 function nav() {
     return (
-        <nav className="navbar navbar-expand-lg navbar-light bg-light">
-            <Link to="/"
-                className={
-                window.location.pathname === "/" || window.location.pathname === "/about"
-                    ? "nav-link active"
-                    : "navbar-brand"
-                }>
+        <div className="body">
+            <nav className="navbar navbar-expand-lg navbar-light bg-light">
                 <img src="images/examples/profile/swirl.png" width="30" height="30"
-                    className="d-inline-block align-top" alt="Krista Brand" loading="lazy"></img>
-            Meet Krista
-            </Link>
-            <button className="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
-                aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-                <span className="navbar-toggler-icon"></span>
-            </button>
-            <div className="collapse navbar-collapse" id="navbarSupportedContent">
+                    className="d-inline-block align-top" alt="Krista" loading="lazy"></img>
                 <ul className="navbar-nav mr-auto">
+                    <li className="nav-item">
+                        <Link to="/"
+                            className={
+                                window.location.pathname === "/" || window.location.pathname === "/about"
+                                    ? "nav-link active"
+                                    : "navbar-brand"
+                            }>
+                            Meet Krista
+                    </Link>
+                    </li>
                     <li className="nav-item">
                         <Link
                             to="/portfolio"
@@ -40,13 +38,14 @@ function nav() {
                     <li className="nav-item">
                         <Link
                             to="https://drive.google.com/file/d/1kxCb5pak5TvL3kl2wBEaHllCjW4YqAt0/view?usp=sharing"
+                            className={window.location.replace === "https://drive.google.com/file/d/1kxCb5pak5TvL3kl2wBEaHllCjW4YqAt0/view?usp=sharing" ? "nav-link active" : "nav-link"}
                         >
                             View Resume
                     </Link>
                     </li>
                 </ul>
-            </div>
-        </nav>
+            </nav>
+        </div>
     );
 }
 

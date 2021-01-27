@@ -1,7 +1,6 @@
 .card {
   background: #fff;
   border-radius: 2px;
-  height: 325px;
   margin: 1rem;
   position: relative;
   width: 325px;
@@ -10,13 +9,12 @@
 }
 
 .card > .img-container {
-  height: 60%;
-  overflow: hidden;
+  height: 100%;
+  overflow: show;
   text-align: center;
-  background:#6CADDC;
 }
 .card > .img-container > img {
-  width: 60%
+  width: 100%
 }
 
 .card > .content {
@@ -32,13 +30,12 @@
 .card > .content > ul > li {
   margin-top: 18px;
 }
-
-.btn{
+button{
   background-color:#41004D;
   color:lavender;
 }
 
-.btn:hover{
+button:hover{
   background-color: #9172ec;
   color: #7D187e;
   font-weight: Bold;

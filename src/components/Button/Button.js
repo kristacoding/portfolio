@@ -5,6 +5,7 @@ import Row from "../Row/Row";
 import { Link } from "react-router-dom";
 
 function Button() {
+    return(
     <div>
         <Row>
             <Col class="col=md-3">
@@ -24,6 +25,8 @@ function Button() {
             </Col>
         </Row>
     </div>
+    );
 }
+
 
 export default Button; 
