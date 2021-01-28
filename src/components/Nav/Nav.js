@@ -10,9 +10,9 @@ function nav() {
                     className="d-inline-block align-top" alt="Krista" loading="lazy"></img>
                 <ul className="navbar-nav mr-auto">
                     <li className="nav-item">
-                        <Link to="/"
+                        <Link to="/portfolio-react"
                             className={
-                                window.location.pathname === "/" || window.location.pathname === "/about"
+                                window.location.pathname === "/portfolio-react" || window.location.pathname === "/about"
                                     ? "nav-link active"
                                     : "navbar-brand"
                             }>

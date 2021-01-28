@@ -12,7 +12,7 @@ function About() {
                 <Row>
                     <Col size="md-6">
                         <img className="img"
-                            src="images/examples/Krista.jpg"
+                        src="{{url('/images/examples/Krista.jpg')}}"
                             alt="Krista Meiers" height="650" width="500">
                         </img>
                     </Col>
