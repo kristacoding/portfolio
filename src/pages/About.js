@@ -3,10 +3,11 @@ import Container from "../components/Container/Container";
 import Row from "../components/Row/Row";
 import Col from "../components/Col/Col";
 import Button from "../components/Button/Button";
+import "./style.css";
 
 function About() {
     return (
-        <div>
+        <div className = "body">
             <Container>
                 <Row>
                     <Col size="md-6">
@@ -22,7 +23,7 @@ function About() {
                         <h2> I am a Search Engine Optimization Specialist (SEO) and Junior Full Stack Developer.</h2>
                         <br></br>
                         <p>
-                            Currently, I work at The Project Management Institute (PMI) as an SEO Specialist. Since starting at
+                            Currently, I work at Project Management Institute (PMI) as an SEO Specialist. Since starting at
                             PMI in September 2019, I have been re-building their digital presence and creating a regional SEO
                             strategy. I truly enjoy the high paced, ever-evolving life of SEO, and am hoping to take my
                             technical website knowledge to the next step as a Junior Full-Stack Developer.

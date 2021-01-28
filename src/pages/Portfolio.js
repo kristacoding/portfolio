@@ -2,6 +2,7 @@ import React, { Component } from "react";
 import ProjectCard from "../components/ProjectCard/Card";
 import Wrapper from "../components/Wrapper/Wrapper";
 import project from "../projects.json";
+import "./style.css";
 
 class App extends Component {
   // Setting this.state.friends to the friends json array
@@ -12,7 +13,7 @@ class App extends Component {
   // Map over this.state.project and render a ProjectCard component for each project object
   render() {
     return (
-      <div>
+      <div className = "body">
         <h1>Krista's Portfolio</h1>
         <Wrapper>
           {this.state.project.map(project => (

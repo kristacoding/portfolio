@@ -66,7 +66,7 @@ class Form extends Component {
               </select>
               <label for="exampleFormControlTextarea1">Leave additional Message here:</label>
               <input class="form-control" id="exampleFormControlTextarea1" rows="3"
-                placeholder="Please add information about your company and your company's website!">
+                placeholder="Please add information about you and your company!">
               </input>
             </div>
             <button onClick={this.handleFormSubmit}>Submit</button>

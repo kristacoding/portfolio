@@ -6,7 +6,7 @@ function Footer() {
         <div className="footer">
             <img src="images/examples/profile/footer.png" alt="FlowerBreak">
             </img>
-            <h3>Made with love and knowledge by Krista Meiers</h3>
+            <p>Made with love and knowledge by Krista Meiers</p>
         </div>
     );
 }

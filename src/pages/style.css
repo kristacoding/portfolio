@@ -1,16 +1,4 @@
-* {
-    box-sizing: border-box;
-  }
-  
-  html,
-  #root,
-  #root > div,
-  div[data-reactroot] {
-    height: 100%;
-    padding: 0;
-    margin: 0;
-  }
-  main{
+main{
     text-align: center; 
     padding-left: 5%;
     padding-right: 5%;
@@ -27,8 +15,7 @@
     font-weight: Bold;
 }
 
-body,
-html {
+.body{
     font-family: 'Handlee', cursive;
     color: #41004D;
     margin: auto;
