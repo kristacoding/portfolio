@@ -56,9 +56,9 @@ class Form extends Component {
               type="text"
               placeholder="Last Name"
             />
-            <div class="form-group">
+            <div className="form-group">
               <label for="exampleFormControlSelect2">Reason for reaching out (click 'ctrl' to select multiple):</label>
-              <select multiple class="form-control" id="exampleFormControlSelect2">
+              <select multiple className="form-control" id="exampleFormControlSelect2">
                 <option>I need SEO Services</option>
                 <option>I am looking for a Full Stack Developer</option>
                 <option>I want both SEO and Full Stack Development assistance</option>
@@ -66,7 +66,7 @@ class Form extends Component {
                 <option>Other</option>
               </select>
               <label for="exampleFormControlTextarea1">Leave additional Message here:</label>
-              <input class="form-control" id="exampleFormControlTextarea1" rows="3"
+              <input className="form-control" id="exampleFormControlTextarea1" rows="3"
                 placeholder="Please add information about you and your company!">
               </input>
             </div>

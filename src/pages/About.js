@@ -1,7 +1,6 @@
 import React from "react";
 import Container from "../components/Container/Container";
 import Row from "../components/Row/Row";
-import Col from "../components/Col/Col";
 import Button from "../components/Button/Button";
 import "./style.css";
 

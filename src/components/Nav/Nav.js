@@ -34,7 +34,7 @@ function nav() {
                     </Link>
                     </li>
                     <li className="nav-item">
-                    <a class="nav-link" href="https://drive.google.com/file/d/1kxCb5pak5TvL3kl2wBEaHllCjW4YqAt0/view?usp=sharing">View Resume</a>
+                    <a className="nav-link" href="https://drive.google.com/file/d/1kxCb5pak5TvL3kl2wBEaHllCjW4YqAt0/view?usp=sharing">View Resume</a>
                     </li>
                 </ul>
             </nav>
