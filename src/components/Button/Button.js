@@ -20,7 +20,7 @@ function Button() {
 
             </Col>
             <Col class="col=md-3">
-            <button className="button btn-outline" href="https://drive.google.com/file/d/1kxCb5pak5TvL3kl2wBEaHllCjW4YqAt0/view?usp=sharing">View my Resume
+            <button className="button btn-outline"> <a href="https://drive.google.com/file/d/1kxCb5pak5TvL3kl2wBEaHllCjW4YqAt0/view?usp=sharing">View Resume</a>
             </button>
             </Col>
             

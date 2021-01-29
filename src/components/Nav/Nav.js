@@ -6,8 +6,6 @@ function nav() {
     return (
         <div className="body">
             <nav className="navbar navbar-expand-lg navbar-light bg-light">
-                <img src="images/examples/profile/swirl.png" width="30" height="30"
-                    className="d-inline-block align-top" alt="Krista" loading="lazy"></img>
                 <ul className="navbar-nav mr-auto">
                     <li className="nav-item">
                         <Link to="/portfolio-react"
@@ -36,12 +34,7 @@ function nav() {
                     </Link>
                     </li>
                     <li className="nav-item">
-                        <Link
-                            to="https://drive.google.com/file/d/1kxCb5pak5TvL3kl2wBEaHllCjW4YqAt0/view?usp=sharing"
-                            className={window.location.replace === "https://drive.google.com/file/d/1kxCb5pak5TvL3kl2wBEaHllCjW4YqAt0/view?usp=sharing" ? "nav-link active" : "nav-link"}
-                        >
-                            View Resume
-                    </Link>
+                    <a class="nav-link" href="https://drive.google.com/file/d/1kxCb5pak5TvL3kl2wBEaHllCjW4YqAt0/view?usp=sharing">View Resume</a>
                     </li>
                 </ul>
             </nav>

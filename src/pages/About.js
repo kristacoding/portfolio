@@ -7,18 +7,17 @@ import "./style.css";
 
 function About() {
     return (
-        <div className = "body">
+        <div className="body">
             <Container>
                 <Row>
-                    <Col size="md-6">
+                    <div className="col-md">
+
                         <img className="img"
-                        src="{{url('/images/examples/Krista.jpg')}}"
+                            src={process.env.PUBLIC_URL + "/images/examples/Krista.jpg"}
                             alt="Krista Meiers" height="650" width="500">
                         </img>
-                    </Col>
-                </Row>
-                <Row>
-                    <Col size="md-6">
+                    </div>
+                    <div className="col-md">
                         <h1>Hi! I'm Krista Meiers.</h1>
                         <h2> I am a Search Engine Optimization Specialist (SEO) and Junior Full Stack Developer.</h2>
                         <br></br>
@@ -34,10 +33,9 @@ function About() {
                             If you have any hiking recommendations or looking for a SEO/Full Stack Developer, please reach out
                             through my contact me!
                         </p>
-                    </Col>
+                        <Button />
+                    </div>
                 </Row>
-                <Button>
-                </Button>
             </Container>
         </div>
     );
