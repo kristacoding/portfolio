@@ -31,6 +31,8 @@ function About() {
                             to mulitple states to enjoy beautiful mountain hikes such as West Virginia, Virginia and Colorado.
                             If you have any hiking recommendations or looking for a SEO/Full Stack Developer, please reach out
                             through my contact me!
+
+                            For additional infromation, check out my <a href="https://www.linkedin.com/in/krista-meiers-a5bab967/">linkedIn profile or email me at krista.coding@gmail.com. 
                         </p>
                         <Button />
                     </div>
